@@ -1,0 +1,28 @@
+{
+  "RETRAIN_LSTM": false,
+  "LOOKBACK": 168,
+  "LSTM_PARAMS": {
+    "hidden_size": 64,
+    "learning_rate": 0.0001,
+    "dropout": 0.2,
+    "batch_size": 128
+  },
+  "LSTM_WFV_PARAMS": {
+    "epochs": 60,
+    "patience": 10
+  },
+  "LSTM_FINAL_PARAMS": {
+    "epochs": 100,
+    "patience": 15,
+    "n_runs": 3
+  },
+  "DM_LAG_MAIN": 24,
+  "DM_LAGS_SENS": [
+    12,
+    168
+  ],
+  "HAC_LAGS_HAR": 24,
+  "QLIKE_FLOOR": 2.459345572637161e-07,
+  "n_val": 17514,
+  "n_test": 17539
+}
